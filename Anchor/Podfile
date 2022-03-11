@@ -1,0 +1,31 @@
+platform :ios,"11.0"
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'AFNetworking', '~>4.0.1'
+pod 'Protobuf'
+pod 'libwebp'
+pod 'MJRefresh'
+#pod 'SDWebImage'
+pod 'Masonry'
+pod 'IQKeyboardManager'
+#pod 'KTVHTTPCache'
+
+pod 'SVProgressHUD'
+pod 'YYKit'
+#pod 'YYModel'
+pod 'AliyunOSSiOS'
+pod 'ReactiveObjC'
+#pod 'SocketRocket'
+pod "GCDWebServer/WebDAV", "~> 3.0"
+pod 'mobile-ffmpeg-full', '~> 4.4'
+pod 'AWSS3', '2.9.8' # 上传框架 S3
+pod 'SVGAPlayer', '~> 2.3'
+#pod 'mobile-ffmpeg-full'
+### 统计崩溃信息
+pod 'Bugly'
+
+
+target 'Anchor' do
+  project 'Anchor'
+  use_frameworks!
+pod 'TXLiteAVSDK_Professional'
+end

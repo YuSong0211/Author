@@ -1,0 +1,117 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.10)
+  - AWSCore (2.9.8)
+  - AWSS3 (2.9.8):
+    - AWSCore (= 2.9.8)
+  - Bugly (2.5.90)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - IQKeyboardManager (6.5.6)
+  - libwebp (1.2.0):
+    - libwebp/demux (= 1.2.0)
+    - libwebp/mux (= 1.2.0)
+    - libwebp/webp (= 1.2.0)
+  - libwebp/demux (1.2.0):
+    - libwebp/webp
+  - libwebp/mux (1.2.0):
+    - libwebp/demux
+  - libwebp/webp (1.2.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.2)
+  - mobile-ffmpeg-full (4.4)
+  - Protobuf (3.17.0)
+  - ReactiveObjC (3.1.1)
+  - SSZipArchive (2.4.3)
+  - SVGAPlayer (2.5.7):
+    - SVGAPlayer/Core (= 2.5.7)
+    - SVGAPlayer/ProtoFiles (= 2.5.7)
+  - SVGAPlayer/Core (2.5.7):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.7):
+    - Protobuf (~> 3.4)
+  - SVProgressHUD (2.2.5)
+  - TXLiteAVSDK_Professional (9.0.10433)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - AliyunOSSiOS
+  - AWSS3 (= 2.9.8)
+  - Bugly
+  - GCDWebServer/WebDAV (~> 3.0)
+  - IQKeyboardManager
+  - libwebp
+  - Masonry
+  - MJRefresh
+  - mobile-ffmpeg-full (~> 4.4)
+  - Protobuf
+  - ReactiveObjC
+  - SVGAPlayer (~> 2.3)
+  - SVProgressHUD
+  - TXLiteAVSDK_Professional
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - TXLiteAVSDK_Professional
+  trunk:
+    - AFNetworking
+    - AliyunOSSiOS
+    - AWSCore
+    - AWSS3
+    - Bugly
+    - GCDWebServer
+    - IQKeyboardManager
+    - libwebp
+    - Masonry
+    - MJRefresh
+    - mobile-ffmpeg-full
+    - Protobuf
+    - ReactiveObjC
+    - SSZipArchive
+    - SVGAPlayer
+    - SVProgressHUD
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AliyunOSSiOS: b8f1dfc229cd9abf68c8ee0cb245c2d66e00dd96
+  AWSCore: 5da86c5afde44a87b06a2df50601bca81a8cee13
+  AWSS3: a5e12eb2495bbe49cda8b0595fa77280aacd7d3d
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  libwebp: 6bac0a99ba5a6bb7449a951ff22c484201985f68
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  mobile-ffmpeg-full: 505c583d91ac1c4fb2b015787e69d83f83fb8f29
+  Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVGAPlayer: 318b85a78b61292d6ae9dfcd651f3f0d1cdadd86
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TXLiteAVSDK_Professional: b3b177c78bb08575fb5c2a85e9bcc061fbeba1d9
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: e6c68433784273f03a2d2a4ada96639d7355d266
+
+COCOAPODS: 1.10.1

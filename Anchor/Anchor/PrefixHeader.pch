@@ -1,0 +1,288 @@
+//
+//  PrefixHeader.pch
+//  KK
+//
+//  Created by 小草 on 2021/6/23.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 设计图 https://zeplin.io
+// 账号密码
+// tikteamdev@outlook.com
+// Tikteam9988
+
+// 产品原型
+// http://miaotongltd.com/rp/app/#id=usp7dj&p=%E5%85%85%E5%80%BC%E4%BB%B7%E6%A0%BC%E8%A1%A8&g=1
+
+
+#import "KKConfig.h"
+//#import <YYModel.h>
+#import <YYKit/YYKit.h>
+// 工具类
+#import "KKTool.h"
+//#import "mt-Swift.h"
+// 用户信息单例类
+#import "KKUserInfo.h"
+// 字体
+#import "UIFont+CoustomFont.h"
+// 自定义Button
+#import "CoustomButton.h"
+#import <Masonry.h>
+// 转model
+#import <ReactiveObjC/ReactiveObjC.h>
+// 全局加载
+#import "KKLoadingView.h"
+// 全局震动类
+#import "KKSytemShock.h"
+
+
+#import "KKUtilityTool.h"
+#import "KKColor.h"
+// 基于mjrefresh自定义的刷新控件
+#import <MJRefresh/MJRefresh.h>
+#import "KKRefreshHeader.h"
+#import "SDWebImage.h"
+#import "UIImageView+Extension.h"
+#import "UIView+Toast.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "SVProgressHUD+Extension.h"
+#import <AFNetworking/AFNetworking.h>
+
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import "SGPagingView.h"
+#import "KKNodateView.h"
+
+#import "KKGeneralGradientColor.h"// view渐变类
+#import "KKWebViewController.h"
+#import "CustomWebViewController.h"
+#import "NetWorkCtrl.h"
+// PB接口类
+#import "NetWorkConfig.h"
+// 抽离通知类
+#import "KKNotification.h"
+//请求头设置类
+#import "HeadsConfig.h"
+// 上传
+#import "KKUploadInfoModel.h"
+#import "KKPublicUpLoadFileMoudle.h"
+#import "NSDate+Extension.h"
+#import "Anchor-Swift.h"
+#import "AvModel.h"
+
+#import "KKHub.h"
+#import "KKJurisdictionManager.h"
+#import "ColorUtil.h"
+#import "AppTimeSysMgr.h"
+
+#import "NSString+Extension.h"
+
+#import "grpcFiles.h" // grpc所有的头文件信息
+#import "KKErrrortext.h"
+// 弹窗及配置
+#import "KKAltItemConfig.h"
+#import "KKAltStyleConfig.h"
+#import "KKAltView.h"
+#import "KKAltCoustomView.h"
+
+#import "SelectMediaMoudle.h" // 选择图片视频，查看图片。
+#import "NSData+KKDataGatory.h"
+#import "UIImageView+Extension.h"
+#import "UIButton+Extension.h"
+#import "richers.h"
+#import "KKPubTagVCModel.h"
+#import "KKClearButton.h"
+#import "TXLiteAVSDK_Professional/TXLiteAVSDK.h"
+
+
+// LOG
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr, "%s:%d行\t%s\n", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#define BBLog(FORMAT, ...) nil
+#endif
+
+#define KKappVersionCode [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+#define webViewUrlTest @"http://192.168.31.9:8083/#!/"
+
+
+#define DEV_MODEL 0
+//#define OPEN_MODEL 0
+
+
+// 删除--------------------------------------------------------------------------------------
+// 请求域名
+#ifdef  DEBUG
+// test环境
+//#define testGetUrl @"http://192.168.31.127:9000/"
+
+//#define testGetUrl @"http://192.168.31.152:5100/"
+// 大佬本地环境
+//#define testDataGetUrl @"http://192.168.31.211:9000/"
+// 大佬公网(外网)测试环境
+#define testDataGetUrl @""
+// 公网(外网)测试
+#define testGetUrl @""
+// 请求用户信息外网(voyageapi.Sign/enterWithUc专用)
+#define testDataTongGetUrl @""
+
+#else
+// relese环境
+
+// gamma环境
+
+
+//#define testGetUrl @"http://192.168.31.127:9000/"
+
+//#define testGetUrl @"http://192.168.31.152:5100/"
+
+// 大佬本地环境
+//#define testDataGetUrl @"http://192.168.31.211:9000/"
+// 大佬公网(外网)测试环境
+#define testDataGetUrl @""
+// 公网(外网)测试
+#define testGetUrl @""
+// 请求用户信息外网(voyageapi.Sign/enterWithUc专用)
+#define testDataTongGetUrl @""
+#endif
+
+// 删除------------------------------------------------------------------------------------
+
+
+
+// 存储用户信息
+#define kUserDefaults [NSUserDefaults standardUserDefaults]
+
+// 屏幕的宽高
+#define KK_SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define KK_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define KK_SCREEN_SCALE KK_SCREEN_WIDTH / 375
+
+// 获取主屏幕windows
+#define KK_GET_WINDOWS [UIApplication sharedApplication].delegate.window
+
+#define KKImage(x) [UIImage imageNamed:x]
+
+// 设置颜色
+#define KKRGBA(r,g,b,a) [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a] // RGB
+
+#define KKMainColor [KKColor getColor:appBgColor]
+
+#define KKPlayerMainColor KKRGBA(20, 21, 27, 1)
+// 状态栏高度
+#define KK_STATUS_BAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
+
+
+// 状态栏和导航栏总高度
+#define KK_NAV_BAR_HEIGHT (KK_STATUS_BAR_HEIGHT + 44)
+
+
+// TabBar高度
+#define KK_TABBAR_BAR_HEIGHT (CGFloat)(IS_iPhoneX?(49+34):(49))
+#define KK_playe_fullSlide_HEIGHT 21
+
+// 底部安全区高度
+#define KK_BOTTOM_SECURITY_HEIGHT (CGFloat)(IS_iPhoneX?(34):(0))
+
+
+// 是否iPhone
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+
+
+// 机型……
+#define IS_iPhoneX KK_SCREEN_WIDTH >=375.0f && KK_SCREEN_HEIGHT >=812.0f && IS_IPHONE
+
+//弱引用/强引用
+#define WEAK_REF(obj) __weak __typeof__(obj) weak_##obj = obj
+#define STRONG_REF(obj) __strong __typeof__(weak_##obj) obj = weak_##obj
+
+#define WS WEAK_REF(self);
+
+#define SS \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+__strong __typeof__(weak_self) self = weak_self; \
+_Pragma("clang diagnostic pop")
+
+//字符串是否为空
+#define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+
+//数组是否为空
+#define kArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+
+//字典是否为空
+#define kDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
+
+// 图片
+#define kImage(Name) ([UIImage imageNamed:Name])
+
+//单例化一个类
+#define SINGLETON_FOR_HEADER(className) \
+\
++ (className *)shared##className;
+
+#define SINGLETON_FOR_CLASS(className) \
+\
++ (className *)shared##className { \
+static className *shared##className = nil; \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+shared##className = [[self alloc] init]; \
+}); \
+return shared##className; \
+}
+
+#pragma mark - 颜色
+//主题色
+#define KK_THEMECOLOR [KKColor getColor:colorPrimary]
+// 发布页主题颜色
+#define KK_RELES_PAGE_THEMECOLOR [KKColor getColor:appBgColor]
+//绿色主题色渐变
+#define KK_GRDIENT_THEMECOLOR @[(__bridge id)[KKColor getColor:colorPrimary].CGColor,(__bridge id)[KKColor getColor:colorPrimaryDark].CGColor]
+//银色渐变
+#define KK_GRDIENT_YINCOLOR @[(__bridge id)KKRGBA(153, 162, 174, 1).CGColor,(__bridge id)KKRGBA(193, 200, 219, 1).CGColor]
+//金色渐变
+#define KK_GRDIENT_JINCOLOR @[(__bridge id)KKRGBA(161, 116, 71, 1).CGColor,(__bridge id)KKRGBA(201, 163, 109, 1).CGColor]
+
+// 通知
+#define kNotificationCenter  [NSNotificationCenter defaultCenter]
+
+//sql lite地址配置
+#define KKSqliteCachePath [NSHomeDirectory() stringByAppendingPathComponent:@"/Documents/sqlite/"]
+
+#define KKDocumentsPath [NSHomeDirectory() stringByAppendingPathComponent:@"/Documents/"]
+
+#define KKConfigPath [NSHomeDirectory() stringByAppendingPathComponent:@"/Documents/Config/"]
+
+
+#define KKMainPath [NSString stringWithFormat:@"%@/",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]]
+
+#define cacheImagePath @"pic/cache/image/"
+
+#define KK_MAIN_BUNDLE_FILE_PATH(fileName) [[NSBundle mainBundle] pathForResource:fileName ofType:nil]
+
+
+// 上传压缩系数
+#define videoZip 0.8  // 视频压缩系数
+#define videoCoverZip 0.7  // 图片压缩系数
+#define thumbnailCoverZip 0.2  // 缩略图压缩系数
+
+
+
+/*
+ 客户端 约定一个 宏定义/变量，用来控制 app 走测试模式，还是走线上模式。
+ 比如 ENV_TYPE = "dev/dist"
+ 打包后不可变更。它用于控制 1.服务器默认API 2.一些SDK的参数（比如bugly）
+ 同时需要把该值注入给webview、在开发者模式里获取webview参数时也需要。
+ */
+
+#ifdef  DEV_MODEL
+#define appBuildType @"dev"
+#else
+#define appBuildType @"dist"
+#endif
+
+#endif /* PrefixHeader_pch */

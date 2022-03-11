@@ -1,0 +1,386 @@
+{
+  "pic": [
+    {
+      "viewId": "homeFollowIcon",
+      "viewIcon": "icon_home_follow.png",
+      "viewDesc": "关注加号"
+    },
+    {
+      "viewId": "tabPublishIcon",
+      "viewIcon": "icon_tab_publish.png",
+      "viewDesc": "发布加号"
+    },
+    {
+      "viewId": "loadingFailureIcon",
+      "viewIcon": "icon_loading_failure.png",
+      "viewDesc": "加载失败占位图"
+    },
+    {
+      "viewId": "noDataIcon",
+      "viewIcon": "icon_nodata_default.png",
+      "viewDesc": "无数据默认占位图"
+    },
+    {
+      "viewId": "noDataVideoIcon",
+      "viewIcon": "icon_nodata_video.png",
+      "viewDesc": "无数据视频占位图"
+    },
+    {
+      "viewId": "noDataFollowIcon",
+      "viewIcon": "icon_nodata_follow.png",
+      "viewDesc": "无数据关注占位图"
+    },
+    {
+      "viewId": "noDataCollectIcon",
+      "viewIcon": "icon_nodata_collect.png",
+      "viewDesc": "无数据收藏占位图"
+    },
+    {
+      "viewId": "noDataFansIcon",
+      "viewIcon": "icon_nodata_fans.png",
+      "viewDesc": "无数据粉丝占位图"
+    },
+    {
+      "viewId": "noDataPraiseIcon",
+      "viewIcon": "icon_nodata_praise.png",
+      "viewDesc": "无数据点赞占位图"
+    },
+    {
+      "viewId": "noDataSearchIcon",
+      "viewIcon": "icon_nodata_search.png",
+      "viewDesc": "无数据搜索占位图"
+    },
+    {
+      "viewId": "homePraiseIcon",
+      "viewIcon": "icon_home_praise_unselected.png",
+      "viewDesc": "播放器点赞未选中"
+    },
+    {
+      "viewId": "homePraiseIcon",
+      "viewIcon": "icon_home_praise_selected.png",
+      "viewDesc": "播放器点赞选中"
+    },
+    {
+      "viewId": "homeCommentIcon",
+      "viewIcon": "icon_home_comment.png",
+      "viewDesc": "播放器评论"
+    },
+    {
+      "viewId": "homeShareIcon",
+      "viewIcon": "icon_home_share.png",
+      "viewDesc": "播放器分享"
+    },
+    {
+      "viewId": "videoPraiseIcon",
+      "viewIcon": "icon_video_praise_unselected.png",
+      "viewDesc": "列表页面点赞未选中"
+    },
+    {
+      "viewId": "videoPraiseIcon",
+      "viewIcon": "icon_video_praise_selected.png",
+      "viewDesc": "列表页面点赞选中"
+    },
+    {
+      "viewId": "communityPraiseIcon",
+      "viewIcon": "icon_community_praise_selected.png",
+      "viewDesc": "社区界面的点赞选中"
+    },
+    {
+      "viewId": "communityPraiseIcon",
+      "viewIcon": "icon_community_praise_unselected.png",
+      "viewDesc": "社区界面的点赞未选中"
+    },
+    {
+      "viewId": "communityCommentIcon",
+      "viewIcon": "icon_community_comment.png",
+      "viewDesc": "社区界面的评论"
+    },
+    {
+      "viewId": "communityCollectIcon",
+      "viewIcon": "icon_community_collect.png",
+      "viewDesc": "社区界面的收藏"
+    },
+    {
+      "viewId": "minePraiseIcon",
+      "viewIcon": "icon_mine_praise.png",
+      "viewDesc": "'我的'-点赞图标"
+    },
+    {
+      "viewId": "mineCollectIcon",
+      "viewIcon": "icon_mine_collect.png",
+      "viewDesc": "'我的'-收藏图标"
+    },
+    {
+      "viewId": "mineDownIcon",
+      "viewIcon": "icon_mine_down.png",
+      "viewDesc": "'我的'-下载图标"
+    },
+    {
+      "viewId": "minePublishIcon",
+      "viewIcon": "icon_mine_publish.png",
+      "viewDesc": "'我的'-发布图标"
+    },
+    {
+      "viewId": "mineVipWatchCountIconSilver",
+      "viewIcon": "icon_mine_vip_watch_count_silver.png",
+      "viewDesc": "'我的'-会员部分-观看权益图标（白银）"
+    },
+    {
+      "viewId": "mineVipDownCountIconSilver",
+      "viewIcon": "icon_mine_vip_down_count_silver.png",
+      "viewDesc": "'我的'-会员部分-下载权益图标（白银）"
+    },
+    {
+      "viewId": "mineVipWatchCountIconGold",
+      "viewIcon": "icon_mine_vip_watch_count_gold.png",
+      "viewDesc": "'我的'-会员部分-观看权益图标（黄金）"
+    },
+    {
+      "viewId": "mineVipDownCountIconGold",
+      "viewIcon": "icon_mine_vip_down_count_gold.png",
+      "viewDesc": "'我的'-会员部分-下载权益图标（黄金）"
+    },
+    {
+      "viewId": "mineShareIcon",
+      "viewIcon": "icon_mine_share.png",
+      "viewDesc": "'我的'-分享图标"
+    },
+    {
+      "viewId": "mineSettingIcon",
+      "viewIcon": "icon_mine_setting.png",
+      "viewDesc": "'我的'-设置图标"
+    },
+    {
+      "viewId": "mineMessageIcon",
+      "viewIcon": "icon_mine_message.png",
+      "viewDesc": "'我的'-消息图标"
+    },
+    {
+      "viewId": "minePositionIcon",
+      "viewIcon": "icon_mine_position.png",
+      "viewDesc": "'我的'-地址定位图标"
+    },
+    {
+      "viewId": "backIcon",
+      "viewIcon": "icon_back.png",
+      "viewDesc": "'返回'-图标"
+    },
+    {
+      "viewId": "searchIcon",
+      "viewIcon": "icon_search.png",
+      "viewDesc": "'搜索'-图标"
+    },
+    {
+      "viewId": "searchIcon",
+      "viewIcon": "icon_search_hint.png",
+      "viewDesc": "'搜索浅色'-图标"
+    },
+    {
+      "viewId": "searchIcon",
+      "viewIcon": "icon_shortVideo_bg.png",
+      "viewDesc": "'短视频列表背景'-图标"
+    }
+  ],
+  "color": {
+    "appBgColor": {
+      "viewDesc": "app背景色",
+      "viewId": "appBgColor",
+      "ColorValue": "#FFFFFF"
+    },
+    "appMainTextColor": {
+      "viewDesc": "app主文字颜色",
+      "viewId": "appMainTextColor",
+      "ColorValue": "#000000"
+    },
+    "appHintTextColor": {
+      "viewDesc": "app辅文字颜色",
+      "viewId": "appHintTextColor",
+      "ColorValue": "#565656"
+    },
+    "appEditTextBgColor": {
+      "viewDesc": "app输入框背景色",
+      "viewId": "appEditTextBgColor",
+      "ColorValue": "#E8E8E8"
+    },
+    "appMainCardBgColor": {
+      "viewDesc": "重点菜单条目底色（我的页面分享，vip卡片）",
+      "viewId": "appMainCardBgColor",
+      "ColorValue": "#f2f2f2"
+    },
+    "appTabUnActiveColor": {
+      "viewDesc": "最底部tab栏未激活状态文字颜色",
+      "viewId": "appTabUnActiveColor",
+      "ColorValue": "#707070"
+    },
+    "appTabActiveColor": {
+      "viewDesc": "最底部tab栏激活状态文字颜色",
+      "viewId": "appTabActiveColor",
+      "ColorValue": "#000000"
+    },
+    "appTabBgColor": {
+      "viewDesc": "最底部tab栏背景色",
+      "viewId": "appTabBgColor",
+      "ColorValue": "#FDFDFD"
+    },
+    "colorPrimary": {
+      "viewDesc": "app主题色",
+      "viewId": "colorPrimary",
+      "ColorValue": "#07c160"
+    },
+    "colorPrimaryDark": {
+      "viewDesc": "app主题色（深）",
+      "viewId": "colorPrimaryDark",
+      "ColorValue": "#0b9c50"
+    },
+    "colorAccent": {
+      "viewDesc": "app强调色",
+      "viewId": "colorAccent",
+      "ColorValue": "#14df81"
+    },
+    "colorMainBtnText": {
+      "viewDesc": "主按钮文字颜色",
+      "viewId": "colorMainBtnText",
+      "ColorValue": "#FFFFFF"
+    },
+    "colorSecondBtnBg": {
+      "viewDesc": "辅按钮背景颜色",
+      "viewId": "colorSecondBtnBg",
+      "ColorValue": "#808080"
+    },
+    "colorSecondBtnText": {
+      "viewDesc": "辅按钮文字颜色",
+      "viewId": "colorSecondBtnText",
+      "ColorValue": "#000000"
+    },
+    "colorPlayerSeekBarBg": {
+      "viewDesc": "播放器进度条背景颜色",
+      "viewId": "colorPlayerSeekBarBg",
+      "ColorValue": "#cccccc"
+    },
+    "colorPlayerSeekBarProgress": {
+      "viewDesc": "播放器进度条进度颜色",
+      "viewId": "colorPlayerSeekBarProgress",
+      "ColorValue": "#0b9c50"
+    },
+    "colorLoadingLeft": {
+      "viewDesc": "Loading小球（左）",
+      "viewId": "colorLoadingLeft",
+      "ColorValue": "#07c160"
+    },
+    "colorLoadingRight": {
+      "viewDesc": "Loading小球（右）",
+      "viewId": "colorLoadingRight",
+      "ColorValue": "#ff8d00"
+    },
+    "colorChatLeftBg": {
+      "viewDesc": "聊天气泡背景left",
+      "viewId": "colorChatLeftBg",
+      "ColorValue": "#E8E8E8"
+    },
+    "colorChatRightBg": {
+      "viewDesc": "聊天气泡背景right",
+      "viewId": "colorChatRightBg",
+      "ColorValue": "#95ec68"
+    },
+    "colorChatLeftText": {
+      "viewDesc": "聊天气泡文字颜色left",
+      "viewId": "colorChatLeftText",
+      "ColorValue": "#000000"
+    },
+    "colorChatRightText": {
+      "viewDesc": "聊天气泡文字颜色right",
+      "viewId": "colorChatRightText",
+      "ColorValue": "#000000"
+    },
+    "colorChatTextBtn": {
+      "viewDesc": "聊天文字按钮颜色",
+      "viewId": "colorChatTextBtn",
+      "ColorValue": "#576b95"
+    },
+    "colorVideoRankBtnSelectedBg": {
+      "viewDesc": "短视频下二级tab激活状态背景",
+      "viewId": "colorVideoRankBtnSelectedBg",
+      "ColorValue": "#f2f2f2"
+    },
+    "colorVideoRankBtnSelectedText": {
+      "viewDesc": "短视频下二级tab激活文字颜色",
+      "viewId": "colorVideoRankBtnSelectedText",
+      "ColorValue": "#06ae56"
+    },
+    "colorVideoRankBtnUnSelectedText": {
+      "viewDesc": "短视频下二级tab未激活文字颜色",
+      "viewId": "colorVideoRankBtnUnSelectedText",
+      "ColorValue": "#565656"
+    },
+    "colorVideoTabSelectedText": {
+      "viewDesc": "短视频下顶部tab文字颜色选中",
+      "viewId": "colorVideoTabSelectedText",
+      "ColorValue": "#000000"
+    },
+    "colorVideoTabUnSelectedText": {
+      "viewDesc": "短视频下顶部tab文字颜色未选中",
+      "viewId": "colorVideoTabUnSelectedText",
+      "ColorValue": "#B0B0B0"
+    },
+    "colorTextBtn": {
+      "viewDesc": "全局文字按钮（评论里的发表）的文字颜色",
+      "viewId": "colorTextBtn",
+      "ColorValue": "#07c160"
+    },
+    "colorTextSilver": {
+      "viewDesc": "等级相关颜色（白银）",
+      "viewId": "colorTextSilver",
+      "ColorValue": "#808080"
+    },
+    "colorTextGold": {
+      "viewDesc": "等级相关颜色（黄金）",
+      "viewId": "colorTextGold",
+      "ColorValue": "#F2CD92"
+    },
+    "colorDialogBg": {
+      "viewDesc": "弹框背景色",
+      "viewId": "colorDialogBg",
+      "ColorValue": "#FFFFFF"
+    },
+    "colorDialogBtnBg": {
+      "viewDesc": "弹框里按钮背景色",
+      "viewId": "colorDialogBtnBg",
+      "ColorValue": "#F7F7F7"
+    },
+    "memberalerAlertBgColor": {
+         "viewDesc": "会员弹框里背景颜色",
+         "viewId": "memberalerAlertBgColor",
+         "ColorValue": "#1E1E1E"
+   },
+    "memberalertAlertTitleColor": {
+         "viewDesc": "会员弹框里标题颜色",
+         "viewId": "memberalertAlertTitleColor",
+         "ColorValue": "#FFFFFF"
+       },
+    "memberalertAlertTextColor": {
+          "viewDesc": "会员弹框文本内容颜色",
+          "viewId": "memberalertAlertTextColor",
+          "ColorValue": "#787878"
+        },
+    "memberalertAlertExtensionColor": {
+         "viewDesc": "会员弹框推广按钮浅色",
+         "viewId": "memberalertAlertExtensionColor",
+         "ColorValue": "#57BD6A"
+       },
+       "memberalertAlertExtensionDarkColor": {
+         "viewDesc": "会员弹框推广按钮深色",
+         "viewId": "memberalertAlertExtensionDarkColor",
+         "ColorValue": "#489A58"
+       },
+       "memberalertAlertBuyColor": {
+           "viewDesc": "会员弹框购买按钮浅色",
+           "viewId": "memberalertAlertBuyColor",
+           "ColorValue": "#C3A475"
+         },
+         "memberalertAlertBuyDarkColor": {
+           "viewDesc": "会员弹框购买按钮深色",
+           "viewId": "memberalertAlertBuyDarkColor",
+           "ColorValue": "#9A7751"
+         }
+  }
+}

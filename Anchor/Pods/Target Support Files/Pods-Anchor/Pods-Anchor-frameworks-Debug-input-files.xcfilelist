@@ -1,0 +1,16 @@
+${PODS_ROOT}/Target Support Files/Pods-Anchor/Pods-Anchor-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking-framework/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/AWSCore-framework/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/AWSS3-framework/AWSS3.framework
+${BUILT_PRODUCTS_DIR}/AliyunOSSiOS-framework/AliyunOSSiOS.framework
+${BUILT_PRODUCTS_DIR}/GCDWebServer-framework/GCDWebServer.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager-framework/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh-framework/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Masonry-framework/Masonry.framework
+${BUILT_PRODUCTS_DIR}/Protobuf-framework/Protobuf.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC-framework/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/SSZipArchive-framework/SSZipArchive.framework
+${BUILT_PRODUCTS_DIR}/SVGAPlayer-framework/SVGAPlayer.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD-framework/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/YYKit-framework/YYKit.framework
+${BUILT_PRODUCTS_DIR}/libwebp-framework/libwebp.framework
